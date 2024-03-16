@@ -2,6 +2,19 @@
 
 It is `pragma circom 2.0.0` language, which is a declarative language used for describing and implementing arithmetic circuits. This language is used in the context of zero-knowledge proofs and cryptographic applications to specify circuits and their logic.
 
+## Project Rubric
+To successfully complete the Final Challenge, your project should:
+
+Write a correct circuit.circom implementation
+
+Compile the circuit to generate circuit intermediaries
+
+Generate a proof using inputs A=0 B=1
+
+Deploy a solidity verifier to Sepolia or Mumbai Testnet
+
+Call the verifyProof() method on the verifier contract and assert output is true
+
 ## Description
 It defines a simple circuit named `Circom`, which consists of three basic logic gates: AND, NOT, and OR. The circuit takes two input signals, `a` and `b`, and produces a single output signal, `Q`.
 #### Signal declaration
